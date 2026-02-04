@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 119310392}
   - component: {fileID: 119310391}
   - component: {fileID: 119310390}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2221,7 +2221,7 @@ GameObject:
   - component: {fileID: 523270612}
   - component: {fileID: 523270614}
   - component: {fileID: 523270613}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Welcome_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2837,7 +2837,7 @@ GameObject:
   - component: {fileID: 625407636}
   - component: {fileID: 625407638}
   - component: {fileID: 625407637}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Welcome Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3592,7 +3592,7 @@ GameObject:
   - component: {fileID: 764212418}
   - component: {fileID: 764212420}
   - component: {fileID: 764212419}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3995,7 +3995,7 @@ GameObject:
   - component: {fileID: 918348722}
   - component: {fileID: 918348724}
   - component: {fileID: 918348723}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4141,7 +4141,7 @@ GameObject:
   - component: {fileID: 968017739}
   - component: {fileID: 968017741}
   - component: {fileID: 968017740}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4310,7 +4310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0924bcaa9eb50df458a783ae0e2b59f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRPokeInteractor
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 130009822}
   m_InteractionLayers:
     m_Bits: 4294967295
   m_Handedness: 0
@@ -4506,7 +4506,7 @@ GameObject:
   - component: {fileID: 1058029842}
   - component: {fileID: 1058029844}
   - component: {fileID: 1058029843}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Reset Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4704,7 +4704,7 @@ MonoBehaviour:
   m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
+  m_XRTrackingOrigin: {fileID: 6140488902814369571}
   m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
@@ -4868,7 +4868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0924bcaa9eb50df458a783ae0e2b59f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRPokeInteractor
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 130009822}
   m_InteractionLayers:
     m_Bits: 4294967295
   m_Handedness: 0
@@ -4923,7 +4923,7 @@ GameObject:
   - component: {fileID: 1154861554}
   - component: {fileID: 1154861556}
   - component: {fileID: 1154861555}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Reset_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5004,7 +5004,7 @@ GameObject:
   - component: {fileID: 1190635831}
   - component: {fileID: 1190635830}
   - component: {fileID: 1190635829}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: 'Yes Button '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6353,7 +6353,7 @@ GameObject:
   - component: {fileID: 1592228951}
   - component: {fileID: 1592228950}
   - component: {fileID: 1592228949}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6512,9 +6512,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a07ef133a37d140a87cdf1f1c75fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 130009822}
   m_InteractionLayers:
-    m_Bits: 1073741825
+    m_Bits: 1073741857
   m_Handedness: 2
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
@@ -7793,7 +7793,7 @@ GameObject:
   - component: {fileID: 1851823627}
   - component: {fileID: 1851823626}
   - component: {fileID: 1851823625}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: No Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
