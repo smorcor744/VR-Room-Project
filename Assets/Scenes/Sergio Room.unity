@@ -2615,7 +2615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &523270612
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7896,7 +7896,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -14.80954, y: 52.664284, z: 116.63569, w: -39.902744}
+  m_margin: {x: -14.80954, y: 52.664284, z: -0.95188904, w: -39.902744}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1592228952
 Canvas:
   m_ObjectHideFlags: 0
@@ -9231,7 +9231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1806428535
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9771,9 +9771,10 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 589663534}
-        m_TargetAssemblyTypeName: SetInteractionLayer, Assembly-CSharp
-        m_MethodName: ToggleTargetLayer
+      - m_Target: {fileID: 589663527}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.Interactors.NearFarInteractor,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableFarCasting
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9783,9 +9784,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1612094798}
-        m_TargetAssemblyTypeName: SetInteractionLayer, Assembly-CSharp
-        m_MethodName: ToggleTargetLayer
+      - m_Target: {fileID: 1612094793}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.Interactors.NearFarInteractor,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableNearCasting
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
